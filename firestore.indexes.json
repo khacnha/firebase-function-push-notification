@@ -1,0 +1,145 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "petactivity",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "petid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "useremail",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "registerdate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "petactstatistics",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "petid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "actstarttime",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "petactstatistics",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "petid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "actstarttime",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "timeunit",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "petactstatistics",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "petid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timerange",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "actstarttime",
+          "order": "DESCENDING"
+        },
+        {
+          "fieldPath": "timeunit",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "petactstatistics",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "petid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timerange",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timeunit",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "petactstatistics",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "petid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timeunit",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "petcalendar",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "user_email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "user_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "end_date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "petcalendar",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "user_email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "user_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "start_date",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
